@@ -5,13 +5,13 @@ using UnityEngine;
 public class Quaternions : MonoBehaviour
 {
   
-    void Start()
+    private void Start()
     {
         
     }
 
    
-    void Update()
+    private void Update()
     {
         Quaternion Q = Quaternion.Euler(0, 5, 0);
         transform.rotation = transform.rotation * Q;
